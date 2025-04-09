@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone https://github.com/offnico24/multple-ip.
+RUN git clone https://github.com/offnico24/multple-ip.git
 
 # Copy the local config.json file to the container
 
